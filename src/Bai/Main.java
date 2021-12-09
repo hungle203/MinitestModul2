@@ -14,19 +14,23 @@ public class Main {
             products[i] = inputProduct(scanner);
         }
 
-        displayProduct(products);
+//        displayProduct(products);
 
     }
 
     public static QuanLiSp inputProduct(Scanner scanner) {
         System.out.println("Nhập id: ");
-        double id = scanner.nextInt();
+        double id = scanner.nextDouble();
         System.out.println("Nhập tên sản phẩm");
+        System.out.println();
         String name = scanner.nextLine();
         System.out.println("Nhập giá");
-        double price = scanner.nextInt();
+        double price = scanner.nextDouble();
         System.out.println("Nhập Loại");
         String type = scanner.nextLine();
-
+        System.out.println("Nhập loại tiền");
+        double money = scanner.nextDouble();
+         return new  QuanLiSp(id,name,price,type,money);
     }
+//    public static void
 }

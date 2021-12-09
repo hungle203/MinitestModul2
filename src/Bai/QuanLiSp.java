@@ -58,6 +58,8 @@ public class QuanLiSp {
         this.money = money;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "QuanliSp{"
+    }
 }
