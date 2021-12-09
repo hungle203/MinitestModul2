@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>QuanLiSp.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #ee7762;}
+.s1 { color: #f9f6ef;}
+.s2 { color: #fd971f;}
+.s3 { color: #57d1eb;}
+.s4 { color: #78dce8;}
+.s5 { color: #ffc83c;}
+.s6 { color: #a97cf8;}
+</style>
+</head>
+<body bgcolor="#1b1a19">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+QuanLiSp.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">Bai;</span>
+
+<span class="s0">public class </span><span class="s1">QuanLiSp </span><span class="s2">{</span>
+    <span class="s0">private double </span><span class="s1">id;</span>
+    <span class="s0">private </span><span class="s1">String name;</span>
+    <span class="s0">private double </span><span class="s1">price;</span>
+    <span class="s0">private </span><span class="s1">String type;</span>
+    <span class="s0">private double </span><span class="s1">money;</span>
+
+    <span class="s0">public </span><span class="s1">QuanLiSp</span><span class="s3">() </span><span class="s2">{</span>
+
+    <span class="s2">}</span>
+    <span class="s0">public </span><span class="s1">QuanLiSp</span><span class="s3">(</span><span class="s0">double </span><span class="s1">id</span><span class="s4">, </span><span class="s1">String name</span><span class="s4">, </span><span class="s0">double </span><span class="s1">price</span><span class="s4">, </span><span class="s1">String type</span><span class="s4">, </span><span class="s0">double </span><span class="s1">money</span><span class="s3">)</span><span class="s2">{</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">id </span><span class="s6">=</span><span class="s1">id;</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">name </span><span class="s6">= </span><span class="s1">name;</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">price </span><span class="s6">= </span><span class="s1">price;</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">type </span><span class="s6">= </span><span class="s1">type;</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">money </span><span class="s6">= </span><span class="s1">money;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public double </span><span class="s1">getId</span><span class="s3">() </span><span class="s2">{</span>
+        <span class="s0">return </span><span class="s1">id;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setId</span><span class="s3">(</span><span class="s0">double </span><span class="s1">id</span><span class="s3">) </span><span class="s2">{</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">id </span><span class="s6">= </span><span class="s1">id;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getName</span><span class="s3">() </span><span class="s2">{</span>
+        <span class="s0">return </span><span class="s1">name;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setName</span><span class="s3">(</span><span class="s1">String name</span><span class="s3">) </span><span class="s2">{</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">name </span><span class="s6">= </span><span class="s1">name;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public double </span><span class="s1">getPrice</span><span class="s3">() </span><span class="s2">{</span>
+        <span class="s0">return </span><span class="s1">price;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setPrice</span><span class="s3">(</span><span class="s0">double </span><span class="s1">price</span><span class="s3">) </span><span class="s2">{</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">price </span><span class="s6">= </span><span class="s1">price;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public </span><span class="s1">String getType</span><span class="s3">() </span><span class="s2">{</span>
+        <span class="s0">return </span><span class="s1">type;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setType</span><span class="s3">(</span><span class="s1">String type</span><span class="s3">) </span><span class="s2">{</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">type </span><span class="s6">= </span><span class="s1">type;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public double </span><span class="s1">getMoney</span><span class="s3">() </span><span class="s2">{</span>
+        <span class="s0">return </span><span class="s1">money;</span>
+    <span class="s2">}</span>
+
+    <span class="s0">public void </span><span class="s1">setMoney</span><span class="s3">(</span><span class="s0">double </span><span class="s1">money</span><span class="s3">) </span><span class="s2">{</span>
+        <span class="s0">this</span><span class="s5">.</span><span class="s1">money </span><span class="s6">= </span><span class="s1">money;</span>
+    <span class="s2">}</span>
+
+
+
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
