@@ -5,6 +5,7 @@ public class QuanLiSp {
     private String name;
     private double price;
     private String type;
+    private int quantity;
     private double money;
 
     public QuanLiSp() {
@@ -58,8 +59,19 @@ public class QuanLiSp {
         this.money = money;
     }
 
+    public double sumPrice(){
+        return money;
+    }
+
     @Override
     public String toString() {
-        return "QuanliSp{"
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", quantity=" + quantity +
+                ", price=" + price +
+                ", type='" + type + '\'' +
+                ", moneyUnit='" + money + '\'' +
+                '}';
     }
 }
